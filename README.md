@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/efvwT8DV)
+     [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/efvwT8DV)
 # Introduction to Programming
 # Winter semester 2025/26 — Assignment 3
 
@@ -31,12 +31,12 @@ basic Python, functions, and the NumPy material (arrays, shapes, slicing, ...).
    Values outside [bin_edges[0], bin_edges[-1]] are ignored.
    Return a 1-D NumPy array of length B with the counts per bin.
 
-3) moving_average(signal, window_size)
-   We want to smooth a 1-D NumPy array using a centered moving average.
-   - signal is a 1-D NumPy array of numbers
-   - window_size is a positive odd integer (1, 3, 5,...).
-   Let k = (window_size - 1) // 2
-   For each index i, consider the indices from max(0, i-k) to min(n-1, i+k),
-   where n is the length of signal, and take the average of those values.
-   Return a new 1-D NumPy array of floats with the same length as signal.
+    3) moving_average(signal, window_size)
+       We want to smooth a 1-D NumPy array using a centered moving average.
+       - signal is a 1-D NumPy array of numbers
+       - window_size is a positive odd integer (1, 3, 5,...).
+       Let k = (window_size - 1) // 2
+       For each index i, consider the indices from max(0, i-k) to min(n-1, i+k),
+       where n is the length of signal, and take the average of those values.
+       Return a new 1-D NumPy array of floats with the same length as signal.
 
